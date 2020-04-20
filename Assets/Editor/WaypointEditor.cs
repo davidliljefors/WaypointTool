@@ -4,9 +4,7 @@ using UnityEditor;
 [CustomEditor(typeof(WaypointSystem))]
 public class WaypointEditor : Editor
 {
-
 	private SerializedProperty propWaypoints;
-
 	private Vector3 inspectorInputPos = new Vector3();
 	private int inspectorInputIndex = 0;
 
